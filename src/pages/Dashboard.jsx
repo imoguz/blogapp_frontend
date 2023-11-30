@@ -42,8 +42,6 @@ function Dashboard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [radioValue, sortDirection]);
   const style = {
-    // "& .MuiRadio-root": { size: { xs: "small" } },
-
     "& .MuiFormControlLabel-label": {
       fontSize: { xs: "0.8rem", md: "1rem" },
       marginLeft: { xs: "0rem" },
