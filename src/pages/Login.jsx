@@ -26,7 +26,7 @@ export default function Login() {
       },
     });
   return (
-    <Container component="main" maxWidth="xs" className="minheight">
+    <Container component="main" maxWidth="xs" className="minheight2">
       <Box
         sx={{
           pt: 5,

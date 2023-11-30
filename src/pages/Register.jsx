@@ -32,7 +32,7 @@ export default function Register() {
       },
     });
   return (
-    <Container component="main" maxWidth="xs" className="">
+    <Container component="main" maxWidth="xs" className="minheight2">
       <Box
         sx={{
           pt: 1,
