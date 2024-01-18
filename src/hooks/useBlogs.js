@@ -5,7 +5,7 @@ import { useAuthContext } from "../context/authContext";
 import { toastifySuccess, toastifyError } from "../helper/Toastify";
 
 const useBlogs = () => {
-  const baseURL = "https://blogapp-backend-sigma.vercel.app/blog";
+  const baseURL = "https://blogapp-backend-olive.vercel.app/blog";
   const dispatch = useDispatch();
   const { userData } = useAuthContext();
   const config = {

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toastifySuccess, toastifyError } from "../helper/Toastify";
 
 const useAuth = () => {
-  const baseURL = "https://blogapp-backend-sigma.vercel.app/blog";
+  const baseURL = "https://blogapp-backend-olive.vercel.app/blog";
   const { setUserData } = useAuthContext();
   const navigate = useNavigate();
 
