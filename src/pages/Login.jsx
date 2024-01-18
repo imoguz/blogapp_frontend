@@ -90,11 +90,23 @@ export default function Login() {
           >
             Sign In
           </Button>
-          <Grid container>
+          <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
               <Link to="/register" className="link">
                 Don't have an account? Sign Up
               </Link>
+            </Grid>
+            <Grid item>
+              <Button
+                type="submit"
+                variant="text"
+                onClick={() => {
+                  values.email = "guest@mail.com";
+                  values.password = "Guest.12";
+                }}
+              >
+                Guest access
+              </Button>
             </Grid>
           </Grid>
         </Box>
